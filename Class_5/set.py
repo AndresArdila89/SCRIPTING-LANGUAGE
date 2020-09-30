@@ -71,18 +71,36 @@ print("-------- disjoint")
 print(Langs2.isdisjoint(Langs3))
 print(Langs2.isdisjoint(Langs4))
 
-#-------------- issubset
+# -------------- issubset
 print("-------- subset")
 print(Langs2.issubset(Langs3))
 print(Langs2.issubset(Langs4))
 
-#-------------- issuperset
+# -------------- issuperset
 print("-------- superset")
 print(Langs2.issuperset(Langs3))
 print(Langs2.issuperset(Langs4))
 
 
-#-------------- union
+# -------------- union
 print("-------- union")
 print(Langs2.union(Langs3))
 print(Langs2.union(Langs4).union(Langs3))
+
+# -------------- difference
+print("-------- difference")
+print(Langs2.difference(Langs3))
+print(Langs2.difference(Langs4))
+
+# -------------- symetric_difference
+print("-------- symetric difference")
+print(Langs2.symmetric_difference(Langs3))
+print(Langs2.symmetric_difference(Langs4))
+
+#------------- applie
+print("-------- exer")
+print(Langs2)
+print(Langs3)
+print(Langs4)
+
+print(Langs2.difference(Langs4))
