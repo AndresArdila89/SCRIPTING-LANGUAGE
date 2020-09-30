@@ -67,5 +67,22 @@ print(Langs3)
 print(Langs4)
 
 # -------------isdisjoint
+print("-------- disjoint")
 print(Langs2.isdisjoint(Langs3))
 print(Langs2.isdisjoint(Langs4))
+
+#-------------- issubset
+print("-------- subset")
+print(Langs2.issubset(Langs3))
+print(Langs2.issubset(Langs4))
+
+#-------------- issuperset
+print("-------- superset")
+print(Langs2.issuperset(Langs3))
+print(Langs2.issuperset(Langs4))
+
+
+#-------------- union
+print("-------- union")
+print(Langs2.union(Langs3))
+print(Langs2.union(Langs4).union(Langs3))
