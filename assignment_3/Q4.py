@@ -3,4 +3,16 @@
     of all characters within a string.
 '''
 
-more
+string = "andres"
+
+letterInString = {}
+
+for i in string:
+    if i in letterInString:
+        letterInString[i] += 1
+    else:
+        letterInString[i] = 1
+
+    
+
+print(letterInString)
