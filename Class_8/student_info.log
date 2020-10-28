@@ -1,0 +1,2 @@
+INFO:root:student_info is running with positional args: () and keyword args: {'name': 'Anna', 'age': 22}
+INFO:root:student_info is running with positional args: () and keyword args: {'name': 'Andres', 'age': 31}
