@@ -71,4 +71,8 @@ class Book:
         print(f"Hello from Static Method")
     
     
-##================================Display 
+    ##================= Overriding
+    def __str__(self):
+        return f"Book ID: {self.bookId} \tTitle: {self.title} \tEdtiro: {self.author} \tPrice: {self.price}"
+    def __del__(self):
+        return "One of the object has been removed"

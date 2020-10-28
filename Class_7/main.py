@@ -25,3 +25,11 @@ print("================================================")
 ##============= Built-in Instance Methods
 
 print("Does price exist in b1?", hasattr(b1,"price"))
+
+##============= Build-in Class methods 
+
+print("Book Doc", Book.__doc__)
+
+
+
+
