@@ -1,5 +1,12 @@
+# set
 originalCharacters = {'f', 'b', 'U', 'i', 'o', 'E', 'a'}
-count = 0
-for x in originalCharacters:
-    originalCharacters[count] = x.lower()
-    count += 1
+
+
+def lowerAndUper(c):
+    y = (c.lower(), c.upper())
+    return y
+
+
+result = map(lowerAndUper, originalCharacters)
+
+print(result)
